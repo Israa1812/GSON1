@@ -64,7 +64,7 @@ public class MainActivity2 extends AppCompatActivity {
         String str = prefs.getString("", "");
         CVInfo cv = gson.fromJson(str, CVInfo.class);
 
-        Toast.makeText(this, "the Cv is "
+        Toast.makeText(this, "the Cv  "
                 , Toast.LENGTH_SHORT).show();
 
     }
